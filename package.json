@@ -1,0 +1,21 @@
+{
+  "name": "nova",
+  "displayName": "nova",
+  "description": "VSCode port of nova-vim",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nova",
+        "uiTheme": "hc-black",
+        "path": "./themes/Nova-color-theme.json"
+      }
+    ]
+  }
+}
